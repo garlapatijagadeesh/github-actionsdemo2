@@ -57,3 +57,4 @@ jobs:
       - name: Run file operatins
         run:  |
           pwd
+          ls -la
