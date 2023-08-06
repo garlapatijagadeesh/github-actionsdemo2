@@ -16,4 +16,4 @@ jobs:
       - name: hello world
         run: |
           pwd
-          ls -l
+          ls -la
