@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: hello world
+      - name: file_operations
         run: |
           pwd
           ls -la
