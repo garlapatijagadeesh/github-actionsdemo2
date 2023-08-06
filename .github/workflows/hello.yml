@@ -1,4 +1,4 @@
-name: Hello world workflow
+name: custom work flow
 on:
   push:
     branches:
@@ -8,17 +8,12 @@ on:
       -master
   workflow_dispatch:
 
-jobs:
-  hello:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: hello world
-        run: echo "Hellow world"
-        
+jobs:     
   readfilecontent:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: hello world
-        run: echo hello_world
+        run: |
+          pwd
+          ls -l
