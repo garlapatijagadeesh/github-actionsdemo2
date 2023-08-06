@@ -21,4 +21,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: hello world
-        run: cat file1
+        run: echo hello_world
