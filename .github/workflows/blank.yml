@@ -57,4 +57,4 @@ jobs:
       - name: Run file operatins
         run: ls
         run: ls -la
-        run: ls
+        run: cat file1
