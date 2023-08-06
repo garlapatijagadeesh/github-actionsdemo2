@@ -55,6 +55,6 @@ jobs:
       - name: Run a one-line script
         run: echo Job build2 executed!
       - name: Run file operatins
-        run: ls
-        run: ls -la
-        run: cat file1
+        run: |
+          ls
+          cat file1
